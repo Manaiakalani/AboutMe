@@ -1,0 +1,13 @@
+# Dependabot configuration
+# https://docs.github.com/en/code-security/dependabot/dependabot-version-updates
+#
+# No package ecosystem is listed. AboutMe is a static site with no
+# package.json, lockfile, Dockerfile, or other manifest, and it has no
+# .github/workflows YAML. A github-actions entry fails on every run
+# without those files (removed in 229d9e8). CodeQL is GitHub default
+# setup, not a workflow file Dependabot can bump.
+#
+# When a manifest or workflow file is added, register it here on a weekly
+# Monday schedule and group minor and patch updates, matching the other repos.
+version: 2
+updates: []
